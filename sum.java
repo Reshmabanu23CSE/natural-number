@@ -1,5 +1,9 @@
 
 
+/* package whatever; // don't place package name! */
+
+/* package whatever; // don't place package name! */
+
 import java.util.*;
 import java.lang.*;
 import java.io.*;
@@ -14,14 +18,14 @@ class Ideone
     
   Scanner s = new Scanner(System.in);		
 
-	 int n = s.nextInt();
+	  n = s.nextInt();
 		
     for(i=1; i <= n; ++i)
     {
         sum += i;   // sum = sum+i;
     }
 
-    System.out.println("Sum = %d",sum);
+    System.out.println(sum);
 
 
 
